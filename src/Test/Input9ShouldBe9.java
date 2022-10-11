@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import main.FizzBuzzApplication;
 
-class Input9ShouldBeFizz {
+class Input9ShouldBe9 {
 
 	@Test
 	public void Input9ShouldBe9() {
