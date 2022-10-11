@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import main.FizzBuzzApplication;
+
 class Input2ShouldBe2 {
 
 	@Test
