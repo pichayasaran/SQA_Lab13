@@ -9,7 +9,7 @@ import main.FizzBuzzApplication;
 class Input8ShouldBe8 {
 
 	@Test
-	public void Input2ShouldBe2() {
+	public void Input8ShouldBe8() {
 	   String expected = "8";
 	   int number = 8;
 
