@@ -2,7 +2,10 @@ package main;
 
 public class FizzBuzzApplication {
 	 public String convert(int number){
-		 if(number == 3) {
+		 if(number == 4){ 
+	            return "4";
+	     }
+		 if(number == 3){ 
 	            return "Fizz";
 	     }
 	     if(number == 2){ 
@@ -11,3 +14,4 @@ public class FizzBuzzApplication {
 	     return "1";
 	 }
 }
+

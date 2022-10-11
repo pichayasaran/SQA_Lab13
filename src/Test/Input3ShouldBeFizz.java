@@ -11,7 +11,7 @@ class Input3ShouldBeFizz {
 	@Test
 	public void Input3ShouldBeFizz() {
 	   String expected = "Fizz";
-	   int number = 3;
+	   int number = 3 ;
 
 	   FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
 	   String actual = fizzBuzz.convert(number);
