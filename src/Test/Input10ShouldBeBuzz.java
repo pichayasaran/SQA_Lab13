@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import main.FizzBuzzApplication;
 
-class Input2ShouldBe2 {
+class Input10ShouldBeBuzz {
 
 	@Test
-	public void Input2ShouldBe2() {
-	   String expected = "2";
-	   int number = 2;
+	public void Input10ShouldBeBuzz() {
+	   String expected = "Buzz";
+	   int number = 10;
 
 	   FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
 	   String actual = fizzBuzz.convert(number);
