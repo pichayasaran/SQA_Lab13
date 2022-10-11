@@ -7,8 +7,13 @@ import org.junit.jupiter.api.Test;
 class Input3ShouldBeFizz {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+	public void Input3ShouldBeFizz() {
+	   String expected = "Fizz";
+	   int number = 3;
 
+	   FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	   String actual = fizzBuzz.convert(number);
+
+	   assertEquals(expected,actual);
+	}
 }
