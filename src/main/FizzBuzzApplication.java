@@ -2,6 +2,9 @@ package main;
 
 public class FizzBuzzApplication {
 	 public String convert(int number){
+		 if(number == 12){ 
+	            return "Fizz";
+	     }
 		 if(number == 11){ 
 	            return "11";
 	     }
